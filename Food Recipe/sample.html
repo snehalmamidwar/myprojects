@@ -1,0 +1,103 @@
+<?php 
+session_start(); 
+
+?>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="home.css">
+<body>
+  <nav id="navbar">
+    <div id="logo">
+      <img src="flogo.png" alt="">
+    </div>
+      <ul>
+          <li><a href="home.php">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="video.php">Videos</a></li>
+          <li><a href="#">Region</a></li>
+          <div class="logout">
+           <li><a href="logout.php">Logout</a></li>
+        </div>  
+       <li><?php echo"Welcome". $_SESSION['Username']?><ion-icon name="person"></ion-icon></li>     
+</ul>
+  </nav>
+       <section id="home"></section>
+       
+       <div class="content">
+       <h1>Popular Dishes</h1>
+       
+       <div class="populardish">
+      <div class="dish-container">
+          <h4>Daal Khichdi</h4>
+          <img src="populardishes/daalkhichdi.jpg" alt="" id="daalkhichdi">
+          <div>
+          <a href="daalkhichdi.php"><button class="btn1">View Recipe</button></a>
+          </div>  
+        </div>
+        
+      <div class="dish-container">
+           <h4>Veg Biryani</h4>
+          <img src="https://t3.ftcdn.net/jpg/04/95/95/20/360_F_495952045_QbkDgCNqd0u1XRw1hh6N9FuefQoMKNv5.jpg" alt="" id="vegbiryani">
+         <div>
+          <a href="vegbiryani.php"><button class="btn2">View Recipe</button></a>
+         </div>
+      </div>
+
+      <div class="dish-container">
+        <h4>Pav Bhaji</h4>
+       <img src="populardishes/pavbhaji.jpg" alt="" id="pavbhaji">
+       <div>
+       <a href="pavbhaji.php"><button class="btn3">View Recipe</button></a>
+       </div>
+   </div>
+
+      <div class="dish-container">
+          <h4>Vegetable Curry </h4>
+       <img src="populardishes/vegetablecurry.jpg" alt=""id="curry">
+      <div>
+       <a href="curry.php"><button class="btn4">View Recipe</button></a>
+      </div>
+    </div>
+    <div class="dish-container">
+      <h4>Puranpoli</h4>
+     <img src="populardishes/puranpoli.jpg" alt=""id="puranpoli">
+     <div>
+     <a href="populardishes/puranpoli.php"><button class="btn5">View Recipe</button></a>
+     </div>
+  </div>
+ <div class="dish-container">
+<h4>Gujiya</h4>
+<img src="populardishes/gujiya.jpg" alt=""id="gujiya">
+  <div>
+ <a href="gujiya.php"><button class="btn6">View Recipe</button></a>
+ </div>
+</div>
+ <div class="dish-container">
+      <h4>Frozen Yogurt</h4>
+      <img src="populardishes/frozenyogurt.jpg" alt=""id="frozen">
+      <div>
+      <a href="populardishes/frozenyogurt.php"><button class="btn7">View Recipe</button></a>
+      </div>
+  </div>
+      <div class="dish-container">
+          <h4>Red-Velvet Cake</h4>
+          <img src="populardishes/cake.jpg" alt=""id="cake">
+          <div>
+          <a href="cake.php"><button class="btn8">View Recipe</button></a>
+          </div>
+  </div>
+  </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>      
+  
+</body>
+</html>

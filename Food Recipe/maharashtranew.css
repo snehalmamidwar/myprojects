@@ -1,0 +1,636 @@
+.main{
+    font-weight: bold;
+}
+   
+   .populardish {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .dish-container {
+        text-align: center;
+        margin: 20px;
+    }
+    .dish-container h4{
+        margin-left: 15px ;
+        font-size: 20px;
+        font-weight: bold;
+    }
+     
+    .dish-container #naralibhat{
+        height: 350px;
+        width: 380px;
+        border-radius: 40px;
+        transition: 1s;
+        /* margin-left: 60px ; */
+        margin-top: 10px;
+        border: 2px solid rgb(218, 189, 189);
+    }
+    .dish-container #naralibhat:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+    .dish-container .btn1 {
+        height: 50px;
+        width: 380px; 
+        padding: 4px 6px;
+        /* margin-top: 40px; */
+        border-radius: 27px;
+        color: white;
+        background-color: dodgerblue;
+        font-weight: bold;
+        font-size: 30px;
+        border: 2px solid rgb(241, 222, 222);
+        cursor: pointer;
+    }
+    .dish-container .btn1:hover{
+         background-color: white;
+         color: dodgerblue;
+    }
+    .dish-container #modak{
+        height: 350px;
+        width: 380px;
+        border-radius: 40px;
+        transition: 1s;
+        border: 2px solid rgb(241, 222, 222);
+        margin-left: 60px ;
+        margin-top: 10px;
+    }
+    .dish-container #modak:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+    .dish-container .btn2 {
+        height: 50px;
+        width: 380px; 
+        padding: 4px 6px;
+        margin-left: 70px;
+        border-radius: 27px;
+        color: white;
+        background-color: dodgerblue;
+        font-weight: bold;
+        font-size: 30px;
+        border: 2px solid rgb(241, 222, 222);
+        cursor: pointer;
+    }
+    .dish-container .btn2:hover{
+         background-color: white;
+         color: dodgerblue;
+    }
+    
+    .dish-container #faral{
+        height: 350px;
+        width: 380px;
+        border-radius: 40px;
+        transition: 1s;
+        border: 2px solid rgb(241, 222, 222);
+        margin-top: 10px;
+        border: 2px solid rgb(241, 222, 222);
+    }
+    .dish-container #faral:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+    .dish-container .btn3 {
+        height: 50px;
+        width: 380px; 
+        padding: 4px 6px;
+        margin-left: 17px;
+        margin-right: 10px;
+        border-radius: 27px;
+        color: white;
+        background-color: dodgerblue;
+        font-weight: bold;
+        font-size: 30px;
+        cursor: pointer;
+        border: 2px solid rgb(241, 222, 222);
+    }
+    .dish-container .btn3:hover{
+         background-color: white;
+         color: dodgerblue;
+    }
+    .dish-container #tilgul{
+        height: 350px;
+        width: 380px;
+        border-radius: 40px;
+        transition: 1s;
+        margin-left: 60px;
+        margin-top: 10px;
+        border: 2px solid rgb(241, 222, 222);
+    }
+    .dish-container #tilgul:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+    .dish-container .btn4 {
+        height: 50px;
+        width: 380px; 
+        padding: 4px 6px;
+        margin-left: 60px;
+        border-radius: 27px;
+        color: white;
+        background-color: dodgerblue;
+        font-weight: bold;
+        font-size: 30px;
+        border: 2px solid rgb(241, 222, 222);
+        cursor: pointer;
+    }
+    .dish-container .btn4:hover{
+         background-color: white;
+         color: dodgerblue;
+    }
+    .dish-container #bhakari{
+        height: 350px;
+        width: 380px;
+        border-radius: 40px;
+        transition: 1s;
+        margin-left: 60px ;
+        margin-top: 10px;
+        border: 2px solid rgb(241, 222, 222);
+    }
+    .dish-container #bhakari:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+    .dish-container .btn5 {
+        height: 50px;
+        width: 380px; 
+        padding: 4px 6px;
+        margin-left: 70px;
+        border-radius: 27px;
+        color: white;
+        background-color: dodgerblue;
+        font-weight: bold;
+        font-size: 30px;
+        border: 2px solid rgb(241, 222, 222);
+        cursor: pointer;
+    }
+    .dish-container .btn5:hover{
+         background-color: white;
+         color: dodgerblue;
+    }
+    .dish-container #basundi{
+        height: 350px;
+        width: 380px;
+        border-radius: 40px;
+        transition: 1s;
+        margin-left: 60px ;
+        margin-top: 10px;
+        border: 2px solid rgb(241, 222, 222);
+    }
+    .dish-container #basundi:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+     
+    .dish-container .btn6 {
+        height: 50px;
+        width: 380px; 
+        padding: 4px 6px;
+        margin-left: 70px;
+        border-radius: 27px;
+        color: white;
+        background-color: dodgerblue;
+        font-weight: bold;
+        font-size: 30px;
+        border: 2px solid rgb(241, 222, 222);
+        cursor: pointer;
+    }
+    .dish-container .btn6:hover{
+         background-color: white;
+         color: dodgerblue;
+    }
+     
+    .dish-container #frozen{
+        height: 350px;
+        width: 380px;
+        border-radius: 40px;
+        transition: 1s;
+        margin-left: 60px ;
+        margin-top: 10px;
+        border: 2px solid rgb(241, 222, 222);
+    }
+    .dish-container #frozen:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+     
+    .dish-container .btn7 {
+        height: 50px;
+        width: 380px; 
+        padding: 4px 6px;
+        margin-left: 70px;
+        border-radius: 27px;
+        color: white;
+        background-color: dodgerblue;
+        font-weight: bold;
+        font-size: 30px;
+        border: 2px solid rgb(241, 222, 222);
+        cursor: pointer;
+    }
+    .dish-container .btn7:hover{
+         background-color: white;
+         color: dodgerblue;
+    }
+    .dish-container #puranpoli{
+        height: 350px;
+        width: 380px;
+        border-radius: 40px;
+        transition: 1s;
+        margin-left: 60px ;
+        margin-top: 10px;
+        border: 2px solid rgb(241, 222, 222);
+    }
+    .dish-container #puranpoli:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+     
+    .dish-container .btn8 {
+        height: 50px;
+        width: 380px; 
+        padding: 4px 6px;
+        margin-left: 70px;
+        border-radius: 27px;
+        color: white;
+        background-color: dodgerblue;
+        font-weight: bold;
+        font-size: 30px;
+        border: 2px solid rgb(241, 222, 222);
+        cursor: pointer;
+    }
+    .dish-container .btn8:hover{
+         background-color: white;
+         color: dodgerblue;
+    }
+    }
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1024px) {
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #navbar {
+            display: flex;
+            align-items: center;
+        
+        
+        }
+        #logo{
+             margin: 4px 15px;
+        }
+        #logo img {
+            height: 57px;
+            width: 60px;
+            margin: 2px 4px;
+            border-radius: 45px;
+        }
+        #navbar{
+            position: relative;
+        }
+        #navbar ul {
+            display: flex;
+        }
+        #navbar::before{
+            content: "";
+            background-color: #a89e9e;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.4;
+        
+        }
+        #navbar ul li {
+             
+            list-style: none;
+            font-size: 1.3rem;
+            margin-left: 60px;
+        }
+        #navbar ul li a{
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            display: block;
+            padding: 3px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+        #navbar ul li a:hover{
+             color: black;
+             background-color: white;
+        }
+        
+        #home{
+            display: flex;
+            padding: 3px 200px;
+            justify-content: center;
+            align-items: center;   
+            
+        }  
+        #home::before{
+            content: "";
+            background: url('https://img.freepik.com/premium-photo/bruschetta-with-cream-cheese-salmon-vegetables-isolated-toast-isolated-sandwich-isolated-sandwich-with-salmon-cheese_311158-5010.jpg') no-repeat center center/cover;
+            position: absolute;
+            margin-top: 55vh;
+            margin-left: 5px;
+            height: 150%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.89;
+            flex-direction: column;
+             
+        } 
+         
+        .logout {
+            list-style: none;
+            font-size: 1.3rem;
+            margin-left: 42px;
+             
+        
+        }
+        .logout a{
+            color: rgb(0, 0, 0);
+            display: block;
+            padding: 3px 22px;
+            border-radius: 20px;
+            margin-left: 42px;
+            text-decoration: none; 
+            font-weight: bold;
+        
+        }
+        .logout a:hover {
+            color: black;
+             background-color: white;
+        
+        }
+        .content h1{
+            margin-top: 85vh;
+        }
+         /* ... Your existing CSS code ... */
+        
+        .populardish {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .dish-container {
+            text-align: center;
+            margin: 20px;
+        }
+        .dish-container h4{
+            margin-left: 15px ;
+            font-size: 20px;
+            font-weight: bold;
+        }
+         
+        .dish-container #daalkhichdi{
+            height: 350px;
+            width: 380px;
+            border-radius: 40px;
+            transition: 1s;
+            margin-left: 50px;
+            margin-top: 10px;
+            border: 2px solid rgb(218, 189, 189);
+        }
+        .dish-container #daalkhichdi:hover{
+            transform: scale(1.1);
+            z-index: 1;
+        }
+        .dish-container .btn1 {
+            height: 50px;
+            width: 380px; 
+            padding: 4px 6px;
+            margin-left: 37px;
+            /* margin-top: 40px; */
+            border-radius: 27px;
+            color: white;
+            background-color: dodgerblue;
+            font-weight: bold;
+            font-size: 30px;
+            border: 2px solid rgb(241, 222, 222);
+            cursor: pointer;
+        }
+        .dish-container .btn1:hover{
+             background-color: white;
+             color: dodgerblue;
+        }
+        .dish-container #vegbiryani{
+            height: 350px;
+            width: 380px;
+            border-radius: 40px;
+            margin-left: 50px;
+            transition: 1s;
+            border: 2px solid rgb(241, 222, 222);
+            margin-left: 60px ;
+            margin-top: 10px;
+        }
+        .dish-container #vegbiryani:hover{
+            transform: scale(1.1);
+            z-index: 1;
+        }
+        .dish-container .btn2 {
+            height: 50px;
+            width: 380px; 
+            padding: 4px 6px;
+            margin-left: 70px;
+            border-radius: 27px;
+            color: white;
+            background-color: dodgerblue;
+            font-weight: bold;
+            font-size: 30px;
+            border: 2px solid rgb(241, 222, 222);
+            cursor: pointer;
+        }
+        .dish-container .btn2:hover{
+             background-color: white;
+             color: dodgerblue;
+        }
+        
+        .dish-container #pavbhaji{
+            height: 350px;
+            width: 380px;
+            border-radius: 40px;
+            margin-left: 50px;
+            transition: 1s;
+            border: 2px solid rgb(241, 222, 222);
+            margin-top: 10px;
+            border: 2px solid rgb(241, 222, 222);
+        }
+        .dish-container #pavbhaji:hover{
+            transform: scale(1.1);
+            z-index: 1;
+        }
+        .dish-container .btn3 {
+            height: 50px;
+            width: 380px; 
+            padding: 4px 6px;
+            margin-left: 36px;
+            border-radius: 27px;
+            color: white;
+            background-color: dodgerblue;
+            font-weight: bold;
+            font-size: 30px;
+            cursor: pointer;
+            border: 2px solid rgb(241, 222, 222);
+        }
+        .dish-container .btn3:hover{
+             background-color: white;
+             color: dodgerblue;
+        }
+        .dish-container #curry{
+            height: 350px;
+            width: 380px;
+            border-radius: 40px;
+            transition: 1s;
+            margin-left: 60px;
+            margin-top: 10px;
+            border: 2px solid rgb(241, 222, 222);
+        }
+        .dish-container #curry:hover{
+            transform: scale(1.1);
+            z-index: 1;
+        }
+        .dish-container .btn4 {
+            height: 50px;
+            width: 380px; 
+            padding: 4px 6px;
+            margin-left: 60px;
+            border-radius: 27px;
+            color: white;
+            background-color: dodgerblue;
+            font-weight: bold;
+            font-size: 30px;
+            border: 2px solid rgb(241, 222, 222);
+            cursor: pointer;
+        }
+        .dish-container .btn4:hover{
+             background-color: white;
+             color: dodgerblue;
+        }
+        .dish-container #puranpoli{
+            height: 350px;
+            width: 380px;
+            border-radius: 40px;
+            transition: 1s;
+            margin-left: 60px ;
+            margin-top: 10px;
+            border: 2px solid rgb(241, 222, 222);
+        }
+        .dish-container #puranpoli:hover{
+            transform: scale(1.1);
+            z-index: 1;
+        }
+        .dish-container .btn5 {
+            height: 50px;
+            width: 380px; 
+            padding: 4px 6px;
+            margin-left: 70px;
+            border-radius: 27px;
+            color: white;
+            background-color: dodgerblue;
+            font-weight: bold;
+            font-size: 30px;
+            border: 2px solid rgb(241, 222, 222);
+            cursor: pointer;
+        }
+        .dish-container .btn5:hover{
+             background-color: white;
+             color: dodgerblue;
+        }
+        .dish-container #gujiya{
+            height: 350px;
+            width: 380px;
+            border-radius: 40px;
+            transition: 1s;
+            margin-left: 60px ;
+            margin-top: 10px;
+            border: 2px solid rgb(241, 222, 222);
+        }
+        .dish-container #gujiya:hover{
+            transform: scale(1.1);
+            z-index: 1;
+        }
+         
+        .dish-container .btn6 {
+            height: 50px;
+            width: 380px; 
+            padding: 4px 6px;
+            margin-left: 70px;
+            border-radius: 27px;
+            color: white;
+            background-color: dodgerblue;
+            font-weight: bold;
+            font-size: 30px;
+            border: 2px solid rgb(241, 222, 222);
+            cursor: pointer;
+        }
+        .dish-container .btn6:hover{
+             background-color: white;
+             color: dodgerblue;
+        }
+         
+        .dish-container #frozen{
+            height: 350px;
+            width: 380px;
+            border-radius: 40px;
+            transition: 1s;
+            margin-left: 60px ;
+            margin-top: 10px;
+            border: 2px solid rgb(241, 222, 222);
+        }
+        .dish-container #frozen:hover{
+            transform: scale(1.1);
+            z-index: 1;
+        }
+         
+        .dish-container .btn7 {
+            height: 50px;
+            width: 380px; 
+            padding: 4px 6px;
+            margin-left: 70px;
+            border-radius: 27px;
+            color: white;
+            background-color: dodgerblue;
+            font-weight: bold;
+            font-size: 30px;
+            border: 2px solid rgb(241, 222, 222);
+            cursor: pointer;
+        }
+        .dish-container .btn7:hover{
+             background-color: white;
+             color: dodgerblue;
+        }
+        .dish-container #cake{
+            height: 350px;
+            width: 380px;
+            border-radius: 40px;
+            transition: 1s;
+            margin-left: 60px ;
+            margin-top: 10px;
+            border: 2px solid rgb(241, 222, 222);
+        }
+        .dish-container #cake:hover{
+            transform: scale(1.1);
+            z-index: 1;
+        }
+         
+        .dish-container .btn8 {
+            height: 50px;
+            width: 380px; 
+            padding: 4px 6px;
+            margin-left: 70px;
+            border-radius: 27px;
+            color: white;
+            background-color: dodgerblue;
+            font-weight: bold;
+            font-size: 30px;
+            border: 2px solid rgb(241, 222, 222);
+            cursor: pointer;
+        }
+        .dish-container .btn8:hover{
+             background-color: white;
+             color: dodgerblue;
+        }
+    }

@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(188, 188, 168) ;
+  }
+  
+  .infocontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .devinfo {
+    width: 50%;
+  }
+  
+  img {
+    max-width: 70%;
+    height: auto;
+    margin-left: 30px;
+  }
+  
+  .box1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+     
+  }
+  
+  .ingredients {
+    width: 45%;
+  }
+  
+  .method {
+    width: 45%;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  h4 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .btn{ 
+    margin-top:20px;
+    height: 40px;
+    width: 90px;
+    color: white;
+    background-color: dodgerblue;
+    cursor: pointer;
+    border-radius:15px;
+  }
+  .btn:hover{
+    background-color: rgb(236, 232, 232);
+    color: dodgerblue;
+    border: rgb(240, 132, 132);
+}
+ 
+.rating {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.like-button
+ {
+  padding: 6px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.dislike-button
+ {
+  padding: 6px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.like-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.dislike-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}
+
+.like-button:hover,
+.dislike-button:hover {
+  background-color: #0056b3;
+}
+#like-count{
+  font-weight: bold;
+  margin-left: 2px;
+}
+#dislike-count{
+  font-weight: bold;
+  margin-left: 2px;
+} 
+ 
+.comments {
+  margin-top: 20px;
+  padding: 20px;
+  border-top: 1px solid #424141;
+}
+
+.comment-form {
+  margin-bottom: 20px;
+}
+
+.comment-form input[type="text"],
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #424141;
+  border-radius: 5px;
+}
+
+.comment-form button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: rgb(0, 100, 255);
+}
+
+  
